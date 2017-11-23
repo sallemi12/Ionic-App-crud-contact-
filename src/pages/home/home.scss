@@ -1,0 +1,150 @@
+
+.home {
+    background: url(../assets/img/intro.jpg) no-repeat fixed;
+    height: 662px;
+    overflow-y: hidden;
+    background-size: cover;
+    position: relative;
+}   
+.overlay {
+     background-color: RGBA(0, 0, 0, 0.67);
+    position: relative;
+    z-index: 100;
+    height: 100%;
+}
+.banner-text{
+    border-left: 5px solid #BE2525;
+    padding: 15px 40px;
+    margin-left: 125px;
+    color: #fff;
+    margin-top: 170px;
+}
+.banner-text h2, .banner-text p{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Questrial', sans-serif;
+}
+.banner-text h2 span{
+    font-family: 'Satisfy', cursive;
+}
+.tagline {
+    color: rgba(255, 255, 255, 0.74);
+    font-weight: 500;
+    font-size: 3em;
+    letter-spacing: 2px;
+    margin-top: 46px;
+    /* font-family: 'Nova Flat', cursive; */
+    -webkit-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+ion-icon.icon.icon-md.ion-md-person,ion-icon.icon.icon-md.ion-md-log-in {
+    border-right: 1px solid;
+    font-size: 25px;
+    margin-right: 8px;
+    padding-right: 8px;
+}
+
+.sub-tagline {
+  margin: 0;
+  font-size: 1em;
+  opacity: 0;
+  transition: all 0.7s ease-in-out;
+}
+.lift-text .tagline {
+  margin: 0;
+}
+.lift-text .sub-tagline {
+  opacity: 1;
+}
+.head-text {
+  padding-top: 60px;
+}
+.typed-cursor {
+  font-weight: 100;
+  padding: 0 2px;
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.lift-text .sub-tagline {
+  opacity: 1;
+}
+h4.sub-tagline {
+  border-bottom: 1px solid #7a7a7a;
+  border-top: 1px solid #7a7a7a;
+  color: rgba(158, 158, 158, 0.51);
+  padding: 15px 0;
+  margin-top: 2px;
+  font-size: 46px;
+  text-transform: uppercase;
+ 
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+/*button */
+.button-home {
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+.menu-btn {
+    display: inline-block;
+    font-size: 38px;
+    color: #009688;
+}
+ion-icon.icon.icon-md.ion-md-ionic {
+    font-size: 150px;
+    color: #999;
+    -webkit-animation: rotation 4s infinite linear;
+}
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+#custom-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100000;
+  width:100%;
+  background-color: #002a3e;
+}
+
+.flb {
+  background-color: #3ebffb;
+  height:100%;
+  width:100%;
+  animation: pulse 1s linear forwards;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Aligner-item {
+  max-width: 50%;
+}
+.Aligner-item--top {
+  align-self: flex-start;
+}
+.Aligner-item--bottom {
+  align-self: flex-end;
+}
+#custom-overlay img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  animation: animation 3100ms linear infinite both;
+  animation-delay: 1s;
+}

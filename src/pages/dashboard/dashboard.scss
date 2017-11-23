@@ -1,0 +1,27 @@
+page-dashboard {
+
+}
+.icon.icon-md.ion-md-contact {
+    font-size: 52px;
+    border-right: 2px solid #E91E63;
+    color: #28b5b7;
+    padding-right: 15px;
+}
+ion-icon.icon.icon-md.ion-md-person-add {
+    color: #33a3a5;
+   
+}
+ion-icon.icon.icon-md.ion-md-lock{
+	color: #E91E63;
+}
+.item-md ion-avatar ion-img, .item-md ion-avatar img {
+    border-radius: 50% !important;
+    overflow: hidden !important;
+    width: 60px !important;
+    background-color: #20bfbf !important;
+
+    height: 60px !important;
+} 
+.logout-toast >div >div{
+  background: #E91E63;
+}
